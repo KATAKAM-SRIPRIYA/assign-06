@@ -25,7 +25,7 @@ def total_monthly_expense(whatsapp_msgs):
 
     return total_expense
 
-    return total_expense
+    
 
 class Total_monthly_expense(unittest.TestCase):
     def test_month_01(self):
