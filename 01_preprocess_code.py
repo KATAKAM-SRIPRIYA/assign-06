@@ -31,7 +31,15 @@ def remove_comments(lines):
         Handle empty lines in code as well.
     """
     # implement your logic here
-    pass
+    l=[]
+    x=lines.split('\n')
+    for i in x:
+        if '#' in i:
+            pass
+        else:
+            l.append(i)
+    return '\n'.join(l)
+
 
 
 # DO NOT TOUCH THE BELOW CODE
