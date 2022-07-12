@@ -19,6 +19,11 @@ def total_monthly_expense(whatsapp_msgs):
     """
     total_expense = 0
     # Write your implementation here
+    y=re.findall(r'\b[0-9]\w+',whatsapp_msgs)
+    for i in y:
+        total_expense=total_expense+int(i)
+
+    return total_expense
 
     return total_expense
 
